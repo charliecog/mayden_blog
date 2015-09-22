@@ -606,6 +606,7 @@ h2 {
 
 .twitter-timeline {
   display: inline-block;
+  float: right;
 }
 
 .img--wrap {
