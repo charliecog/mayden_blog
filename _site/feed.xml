@@ -5,9 +5,65 @@
     <description>A blog about learning software engineering in a hurry</description>
     <link>http://yourdomain.com/mayden_blog/</link>
     <atom:link href="http://yourdomain.com/mayden_blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Sep 2015 16:39:10 +0100</pubDate>
-    <lastBuildDate>Fri, 18 Sep 2015 16:39:10 +0100</lastBuildDate>
+    <pubDate>Tue, 22 Sep 2015 11:23:05 +0100</pubDate>
+    <lastBuildDate>Tue, 22 Sep 2015 11:23:05 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Using the lamp stack and intro to databases</title>
+        <description>&lt;p&gt;Here is what we have done today, I am writing this down as a method of revision in an attempt to commit this from short term to long term memory. There are likely many ways to do the following stuff, but this is how I learnt it today.&lt;/p&gt;
+
+&lt;p&gt;The goal of today was to set up a virtual machine, build a database in MySQL on the VM (virtual machine) and connect a local PHP script to it to make changes to it. Here’s the steps:&lt;/p&gt;
+
+&lt;p&gt;Open terminal and use an SSH connection to connect to the virtual machine (we used Vagrant for the virtual machine)&lt;/p&gt;
+
+&lt;p&gt;Use the mysql command on the terminal to open MySQL on the VM&lt;/p&gt;
+
+&lt;p&gt;Create a simple database using basic MySQL commands - create database [database name], use [database name], CREATE TABLE [TABLE NAME] ([column name, type, PRIMARY KEY, auto_increment, CREATE TABLE people (id INT(8) PRIMARY KEY auto_increment, firstname VARCHAR(50), lastname(50), dob DATE); (this last long one sets the parameters for the table), INSERT INTO [table] ([fields]) VALUES ([values])
+  exit the virtual machine and open sequel pro to connect back to the VM and view the database in a GUI&lt;/p&gt;
+
+&lt;p&gt;Use an IDE (in this case Atom) to create a documents.php file in inside the shared html file (sat inside the vagrant directory on the local machine - this constantly syncs to keep a record on both local and virtual machines
+ open PHP tags and use mysqli to connect to the database - new mysqli($servername, $username, $password, $database); [all these are predetermined variables]&lt;/p&gt;
+
+&lt;p&gt;use MySQL code within PHP document to make changes eg: “SELECT * FROM people WHERE firstname IS NOT NULL;”&lt;/p&gt;
+
+&lt;p&gt;This allowed me to make changes to a MySQL database hosted on a VM ip address using a local PHP script.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Sep 2015 19:12:22 +0100</pubDate>
+        <link>http://yourdomain.com/mayden_blog/using-the-lamp-stack-and-intro-to-databases</link>
+        <guid isPermaLink="true">http://yourdomain.com/mayden_blog/using-the-lamp-stack-and-intro-to-databases</guid>
+        
+        
+        <category>lamp</category>
+        
+        <category>stack</category>
+        
+      </item>
+    
+      <item>
+        <title>First week - setting up environment, command line and Git</title>
+        <description>&lt;p&gt;The first week has flown by and I am currently taking stock of what I have learnt this week at the Mayden academy. To say that I am further on than I thought I would be at this point would be an understatement! There has been a great learning pace throughout the first week and all 6 of us academy trainees have been extremely enthusiastic to push on with getting through the content of the course. This has been a really refreshing learning environment to be a part of and has encouraged all of us to make a real effort with absorbing as much information as possible.&lt;/p&gt;
+
+&lt;p&gt;The first couple of days were spent getting used to our new development laptops - I hadn’t ever used a mac for any serious stretch of time so getting my head around the OS has been and will continue to be an area I am making a concerted effort with. It sounds like I should have it cracked within a couple of weeks so I am not too worried.&lt;/p&gt;
+
+&lt;p&gt;Making the changeover from Windows to Mac aside, we have spent time getting used to the way the company works - the particular software that is used for project management, timekeeping and task delivery. Like everything else I learn by repetition and I am already finding it easier to use with only a weeks use under my belt.&lt;/p&gt;
+
+&lt;p&gt;The Mayden software engineering teams, as well as a large portion of the digital teams all over the world, use a working methodolgy called agile. We watched a few videos, had a discussion and then sat in on an actual agile meeting within the business. This is to open our eyes to the fact that developing software is not just about coding - the ability to work effectively in a team is just as important. The particular type of Agile that we are learning is called scrum and its definately worth a google.&lt;/p&gt;
+
+&lt;p&gt;The second half of the week we spent our time getting our teeth into some slightly more technical stuff, which if I am honest, I was quite glad for. We covered GIT (the version control system) GITHUB (the frontend for using GIT), trying out multiple IDE’s (text editors) using the command line, writing simple bash scripts to customize our working environment, setting up local servers, an intoduction to how the web works and finally setting up this very blog using Jekyll and hosting on GITHUB to practice all of these skills.&lt;/p&gt;
+
+&lt;p&gt;There has been alot to cover in only a few days but I have found myself really encouraged with the amount of information absorbed. Even writing this blog has made me realise just how much stuff the trainers have covered. Im excited about getting back in on Monday morning and continuing to climb the learning curve, although I suspect it will get steeper and steeper as the weeks go on!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 20 Sep 2015 10:18:22 +0100</pubDate>
+        <link>http://yourdomain.com/mayden_blog/first_week</link>
+        <guid isPermaLink="true">http://yourdomain.com/mayden_blog/first_week</guid>
+        
+        
+        <category>first</category>
+        
+        <category>week</category>
+        
+      </item>
     
       <item>
         <title>Why do I want to learn to code</title>
