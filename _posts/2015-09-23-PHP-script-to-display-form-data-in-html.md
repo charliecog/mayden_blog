@@ -12,4 +12,4 @@ After a quick introduction to PHP arrays - i was interested in writing a quick p
 
 I created a numerical based index array and used an HTML form input to prompt the user to enter a name and email. These bits of data were then put into the array and then called using the zero index numbering scheme. It is a simple solution and with a little bit of HTML and CSS I was able to build a simple frontend to display in the browser.
 
-![My frontend]({{ site.url}}/img/codeshot.jpg)
+![My frontend]({{ site.url}}/img/frontendshot.png)
