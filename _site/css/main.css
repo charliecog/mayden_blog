@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=PT+Sans:400,700");
+@import url("http://fonts.googleapis.com/css?family=Permanent+Marker:400,700");
 .grid:after, .main-header:after {
   content: "";
   display: table;
@@ -28,12 +28,13 @@
   margin-right: auto; }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Permanent Marker';
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 article,
 aside,
@@ -128,7 +129,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'Permanent Marker', monospace;
   font-size: 1em; }
 
 button,
@@ -216,7 +217,7 @@ th {
 body {
   color: #797e83;
   font-size: 16px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Permanent Marker", sans-serif;
   line-height: 1.5; }
 
 h3 {
@@ -547,7 +548,7 @@ h2 {
   letter-spacing: 0.025em;
   font-weight: 100;
   font-size: 1.5em;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Permanent Marker", Helvetica, Arial, sans-serif; }
 
 [class^="btn--"] {
   padding: 10px 25px;

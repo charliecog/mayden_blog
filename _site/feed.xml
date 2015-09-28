@@ -5,22 +5,27 @@
     <description>A blog about learning software engineering in a hurry</description>
     <link>http://charliecog.github.io/mayden_blog/mayden_blog/</link>
     <atom:link href="http://charliecog.github.io/mayden_blog/mayden_blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Sep 2015 15:41:03 +0100</pubDate>
-    <lastBuildDate>Mon, 28 Sep 2015 15:41:03 +0100</lastBuildDate>
+    <pubDate>Mon, 28 Sep 2015 17:07:04 +0100</pubDate>
+    <lastBuildDate>Mon, 28 Sep 2015 17:07:04 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>HTML/CSS - Float left</title>
         <description>&lt;p&gt;Today we have begun working on HTML and CSS - here is one of the concepts that I found interesting. It is how to display elements next to each other without changing the display to inline. It is using float:left&lt;/p&gt;
 
-&lt;p&gt;Here’s my HTML code:
-&lt;img src=&quot;http://charliecog.github.io/mayden_blog/img/codeshot1.jpg&quot; alt=&quot;My html code&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Here’s my HTML code:&lt;/p&gt;
 
-&lt;p&gt;This was linked to the following CSS code:
-&lt;img src=&quot;http://charliecog.github.io/mayden_blog/img/frontendshot2.jpg&quot; alt=&quot;css code&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://charliecog.github.io/mayden_blog/img/codeshot1.png&quot; alt=&quot;My html code&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;And here is the result:
-&lt;img src=&quot;http://charliecog.github.io/mayden_blog/img/webshot.jpg&quot; alt=&quot;Divs display floated&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This was linked to the following CSS code:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://charliecog.github.io/mayden_blog/img/codeshot2.png&quot; alt=&quot;css code&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And here is the result:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://charliecog.github.io/mayden_blog/img/webshot.png&quot; alt=&quot;Divs display floated&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Snazzy!&lt;/p&gt;
 </description>
         <pubDate>Mon, 28 Sep 2015 16:38:22 +0100</pubDate>
         <link>http://charliecog.github.io/mayden_blog/mayden_blog/float-left</link>
