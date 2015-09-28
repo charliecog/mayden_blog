@@ -19,3 +19,5 @@ This was linked to the following CSS code:
 And here is the result:
 
 ![Divs display floated]({{ site.url}}/img/webshot.png)
+
+Snazzy!
