@@ -9,10 +9,13 @@ permalink: float-left
 Today we have begun working on HTML and CSS - here is one of the concepts that I found interesting. It is how to display elements next to each other without changing the display to inline. It is using float:left
 
 Here's my HTML code:
-![My html code]({{ site.url}}/img/codeshot1.jpg)
+
+![My html code]({{ site.url}}/img/codeshot1.png)
 
 This was linked to the following CSS code:
-![css code]({{ site.url}}/img/frontendshot2.jpg)
+
+![css code]({{ site.url}}/img/codeshot2.png)
 
 And here is the result:
-![Divs display floated]({{ site.url}}/img/webshot.jpg)
+
+![Divs display floated]({{ site.url}}/img/webshot.png)
