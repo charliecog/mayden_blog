@@ -3,25 +3,51 @@
   <channel>
     <title>Becoming a full stack developer in 6 months</title>
     <description>A blog about learning software engineering in a hurry</description>
-    <link>http://yourdomain.com/mayden_blog/</link>
-    <atom:link href="http://yourdomain.com/mayden_blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Sep 2015 14:25:28 +0100</pubDate>
-    <lastBuildDate>Wed, 23 Sep 2015 14:25:28 +0100</lastBuildDate>
+    <link>http://charliecog.github.io/mayden_blog/mayden_blog/</link>
+    <atom:link href="http://charliecog.github.io/mayden_blog/mayden_blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 28 Sep 2015 15:41:03 +0100</pubDate>
+    <lastBuildDate>Mon, 28 Sep 2015 15:41:03 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
+        <title>HTML/CSS - Float left</title>
+        <description>&lt;p&gt;Today we have begun working on HTML and CSS - here is one of the concepts that I found interesting. It is how to display elements next to each other without changing the display to inline. It is using float:left&lt;/p&gt;
+
+&lt;p&gt;Here’s my HTML code:
+&lt;img src=&quot;http://charliecog.github.io/mayden_blog/img/codeshot1.jpg&quot; alt=&quot;My html code&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This was linked to the following CSS code:
+&lt;img src=&quot;http://charliecog.github.io/mayden_blog/img/frontendshot2.jpg&quot; alt=&quot;css code&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And here is the result:
+&lt;img src=&quot;http://charliecog.github.io/mayden_blog/img/webshot.jpg&quot; alt=&quot;Divs display floated&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Sep 2015 16:38:22 +0100</pubDate>
+        <link>http://charliecog.github.io/mayden_blog/mayden_blog/float-left</link>
+        <guid isPermaLink="true">http://charliecog.github.io/mayden_blog/mayden_blog/float-left</guid>
+        
+        
+        <category>css,</category>
+        
+        <category>html,</category>
+        
+        <category>float</category>
+        
+      </item>
+    
+      <item>
         <title>PHP script to display form data in HTML</title>
-        <description>&lt;p&gt;After a quick introduction to PHP arrays - i was interested in writing a quick piece of code that practice array creation, assigning new items to that array and then finally recalling them.&lt;/p&gt;
+        <description>&lt;p&gt;After a quick introduction to PHP arrays - i was interested in writing a quick piece of code that practices array creation, assigning new items to that array and then finally recalling them.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://yourdomain.com/img/codeshot.jpg&quot; alt=&quot;My PHP code&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://charliecog.github.io/mayden_blog/img/codeshot.jpg&quot; alt=&quot;My PHP code&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I created a numerical based index array and used an HTML form input to prompt the user to enter a name and email. These bits of data were then put into the array and then called using the zero index numbering scheme. It is a simple solution and with a little bit of HTML and CSS I was able to build a simple frontend to display in the browser.&lt;/p&gt;
+&lt;p&gt;I created a numerical based index array and used an HTML form input to prompt the user to enter a name and email. These bits of data were then put into the POST array and then called upon using the zero index numbering scheme. It is a simple solution and with a little bit of HTML and CSS I was able to build a frontend to display it all in the browser.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://yourdomain.com/img/codeshot.jpg&quot; alt=&quot;My frontend&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://charliecog.github.io/mayden_blog/img/frontendshot.png&quot; alt=&quot;My frontend&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 23 Sep 2015 14:37:22 +0100</pubDate>
-        <link>http://yourdomain.com/mayden_blog/php-script-to-display-form-data-in-html</link>
-        <guid isPermaLink="true">http://yourdomain.com/mayden_blog/php-script-to-display-form-data-in-html</guid>
+        <link>http://charliecog.github.io/mayden_blog/mayden_blog/php-script-to-display-form-data-in-html</link>
+        <guid isPermaLink="true">http://charliecog.github.io/mayden_blog/mayden_blog/php-script-to-display-form-data-in-html</guid>
         
         
         <category>php,</category>
@@ -51,8 +77,8 @@
 &lt;p&gt;This allowed me to make changes to a MySQL database hosted on a VM ip address using a local PHP script.&lt;/p&gt;
 </description>
         <pubDate>Mon, 21 Sep 2015 19:12:22 +0100</pubDate>
-        <link>http://yourdomain.com/mayden_blog/using-the-lamp-stack-and-intro-to-databases</link>
-        <guid isPermaLink="true">http://yourdomain.com/mayden_blog/using-the-lamp-stack-and-intro-to-databases</guid>
+        <link>http://charliecog.github.io/mayden_blog/mayden_blog/using-the-lamp-stack-and-intro-to-databases</link>
+        <guid isPermaLink="true">http://charliecog.github.io/mayden_blog/mayden_blog/using-the-lamp-stack-and-intro-to-databases</guid>
         
         
         <category>lamp</category>
@@ -76,8 +102,8 @@
 &lt;p&gt;There has been alot to cover in only a few days but I have found myself really encouraged with the amount of information absorbed. Even writing this blog has made me realise just how much stuff the trainers have covered. Im excited about getting back in on Monday morning and continuing to climb the learning curve, although I suspect it will get steeper and steeper as the weeks go on!&lt;/p&gt;
 </description>
         <pubDate>Sun, 20 Sep 2015 10:18:22 +0100</pubDate>
-        <link>http://yourdomain.com/mayden_blog/first_week</link>
-        <guid isPermaLink="true">http://yourdomain.com/mayden_blog/first_week</guid>
+        <link>http://charliecog.github.io/mayden_blog/mayden_blog/first_week</link>
+        <guid isPermaLink="true">http://charliecog.github.io/mayden_blog/mayden_blog/first_week</guid>
         
         
         <category>first</category>
@@ -99,8 +125,8 @@
 &lt;p&gt;The world wide web is only 25 years old and in the grand scheme of things, still a young technology. It’s a rare thing to have an opportunity to participate in the early stages of a global innovation that’s dramatically impacting the way we live and moving society forward. For me the opportunity to work in the field is similar to working in aviation just after the Wright Brothers’ first flight or the printing press around the time of Gutenberg! Perhaps these comparisons seem a little far fetched, but the impact that the internet has had on society cannot be denied. To be able to be part of the movement is a dream come true!&lt;/p&gt;
 </description>
         <pubDate>Fri, 18 Sep 2015 15:12:22 +0100</pubDate>
-        <link>http://yourdomain.com/mayden_blog/why-do-i-want-to-learn-to-code</link>
-        <guid isPermaLink="true">http://yourdomain.com/mayden_blog/why-do-i-want-to-learn-to-code</guid>
+        <link>http://charliecog.github.io/mayden_blog/mayden_blog/why-do-i-want-to-learn-to-code</link>
+        <guid isPermaLink="true">http://charliecog.github.io/mayden_blog/mayden_blog/why-do-i-want-to-learn-to-code</guid>
         
         
         <category>learning</category>
