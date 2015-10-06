@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<!--head module-->
+  <head>
+    <title>Super Software Blog</title>
+    <meta name="description" content="Software blog">
+    <meta name="keywords" content="charliecog, blog, mayden academy">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+<!--end of head module-->
+
+
+<!--nav module-->
+<body>
+  <div class="wrapper blogwrapper">
+    <div id="nav">
+      <ul class="navvie">
+        <li><a class="big" href="index.html">HOME</a></li>
+        <li><a class="big" href="postpage.html">BLOG</a></li>
+        <li><a class="big" href="about.html">ABOUT</a></li>
+        <li><a href="references.html"><img src="img/questionmark.png"/></a></li>
+      </ul>
+    </div>
+<!--end of nav module-->
+
+<a href="postpage.html"><div class="backbutton">Back to posts</div></a>
+
+  <div class="viewport blogviewport">
+<!--start-->
+<div class="gallery bloggallery">
+
+  <div class="heading">
+    <h1 class="title">USING THE LAMP STACK AND INTRO TO DATABASES</h1>
+    <p class="date">SEP 21, 2015</p>
+  </div>
+
+  <div class="blogcontent">
+    <p>Here is what we have done today, I am writing this down as a method of revision in an attempt to commit this from short term to long term memory. There are likely many ways to do the following stuff, but this is how I learnt it today.</p>
+    <p>The goal of today was to set up a virtual machine, build a database in MySQL on the VM (virtual machine) and connect a local PHP script to it to make changes to it. Here’s the steps:</p>
+    <p>Open terminal and use an SSH connection to connect to the virtual machine (we used Vagrant for the virtual machine)</p>
+    <p>Use the mysql command on the terminal to open MySQL on the VM</p>
+    <p>Create a simple database using basic MySQL commands - create database [database name], use [database name], CREATE TABLE [TABLE NAME] ([column name, type, PRIMARY KEY, auto_increment, CREATE TABLE people (id INT(8) PRIMARY KEY auto_increment, firstname VARCHAR(50), lastname(50), dob DATE); (this last long one sets the parameters for the table), INSERT INTO [table] ([fields]) VALUES ([values])
+  exit the virtual machine and open sequel pro to connect back to the VM and view the database in a GUI</p>
+    <p>Use an IDE (in this case Atom) to create a documents.php file in inside the shared html file (sat inside the vagrant directory on the local machine - this constantly syncs to keep a record on both local and virtual machines
+ open PHP tags and use mysqli to connect to the database - new mysqli($servername, $username, $password, $database); [all these are predetermined variables]</p>
+    <p>use MySQL code within PHP document to make changes eg: “SELECT * FROM people WHERE firstname IS NOT NULL;”</p>
+    <p>This allowed me to make changes to a MySQL database hosted on a VM ip address using a local PHP script.</p>
+
+  </div>
+
+</div>
+
+</div>
+
+</div>
+
+
+</body>
+</html>
