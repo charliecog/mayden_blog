@@ -1,0 +1,377 @@
+* {
+  margin: auto;
+}
+
+@font-face {
+    font-family: smbfont;
+    src: url(smbfont.ttf);
+}
+
+@font-face {
+    font-family: supermarioworld;
+    src: url(supermarioworld.ttf);
+}
+
+/* start of nav */
+
+#nav ul {
+  background-color: #BC440F;
+  border-bottom: solid #E4A089;
+  border-width: 10px;
+  height: 85px;
+  word-spacing: 70px;
+  text-align: center;
+}
+
+#nav a {
+  font-family: 'smbfont';
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #FEC3B9;
+  transition: ease-out 0.2s;
+  letter-spacing: 1px;
+  text-shadow: 3px 6px black;
+}
+
+
+#nav li {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  transition: ease-out 0.5s;
+}
+
+#nav a:hover {
+  background-color: #EDAA39;
+  color: #AB3905;
+  padding-top: 500px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  transition: ease-out 0.5s;
+}
+
+#nav li img {
+  height: 50px;
+  display: none;
+
+}
+
+@media (max-width: 800px) {
+  #nav li .big {
+    display: none;
+  }
+  #nav li img {
+    display: inline-block;
+  }
+
+
+}
+
+/* end of nav */
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: url('img/mariobackground.jpg');
+  background-size: 100% 100%;
+  border: 2px solid black;
+}
+
+.text {
+  position: relative;
+  margin: auto;
+  height: 35%;
+  width: 60%;
+  border-left: 2px solid #E4A089;
+  border-top: 2px solid #E4A089;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: #BC440F;
+  margin-top: 8%;
+  overflow: hidden;
+}
+
+.boxcontent {
+  height: 100%;
+  position: relative;
+  margin-top: 2%;
+}
+
+
+.text p {
+  font-family: 'smbfont';
+  font-size: 6em;
+  color: #FEC3B9;
+  margin-left: 6%;
+  text-shadow: 3px 6px black;
+
+}
+
+
+.controls {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.controls p {
+  font-family: 'supermarioworld';
+  color: white;
+  font-size: 1em;
+  display: inline;
+}
+
+
+.controls p:hover {
+  color: #D3D3D3;
+}
+
+.controls a {
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  .text p {
+    font-size: 4em;
+    margin-left: 6%;
+  }
+}
+
+@media (min-width: 915px) and (min-height:915px) {
+  .text p {
+    font-size: 8em;
+    margin-left: 6%;
+  }
+}
+
+@media (min-width: 1200px) and (min-height:1000px) {
+  .text p {
+    font-size: 10em;
+    margin-left: 6%;
+  }
+}
+
+/* Start of viewport */
+
+.viewport {
+  height: 50%;
+  margin-right: 1.5%;
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+}
+
+
+.gallery {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  border-left: 2px solid #E4A089;
+  border-top: 2px solid #E4A089;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+
+}
+
+.contone {
+  background-image: url("img/charliec.png");
+}
+
+.conttwo {
+  background-image: url("img/honeycomb.png");
+}
+
+.contthree {
+  background-image: url("img/finishedlogo.png");
+}
+
+.contfour {
+  background-image: url("img/webshot.png");
+}
+
+.contfive {
+  background-image: url("img/frontendshot.png");
+}
+
+.contsix {
+  background-image: url("img/codeshot.jpg");
+}
+
+.imageGridPercentage {
+  line-height: 0;
+  height: 40em;
+}
+.imageGridPercentage .tile {
+  width:33.33%;
+  height:50%;
+  line-height: 1.2;
+  display:inline-block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  color:#fff;
+  font-family:'supermarioworld',sans-serif;
+  text-shadow: 2px 2px 2px #000;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.imageGridPercentage .tile:before {
+  content: '';
+  background-color: rgba(15,15,15,0.6);
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+}
+
+.imageGridPercentage .tile:hover:before {
+  display: none;
+}
+
+.imageGridPercentage .tile .textWrapper {
+  text-align: center;
+  vertical-align: middle;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .75em;
+}
+
+.imageGridPercentage .tile .textWrapper .content {
+  display: none;
+}
+
+.imageGridPercentage .tile:hover .textWrapper .content {
+  display: block;
+  background-color: rgba(15,15,15,0.85);
+}
+
+.imageGridPercentage .tile:hover .textWrapper .content h2 {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .imageGridPercentage .tile {
+    width: 100%;
+    height: 16.7%;
+  }
+  .imageGridPercentage .tile .content{
+    display: none!important;
+  }
+}
+/* end of viewport */
+
+/* start of blogpage */
+
+.blogwrapper {
+  background: none;
+  background-color: #6096FF;
+}
+
+.blogviewport {
+  height: 80%;
+}
+
+.heading {
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  font-family: 'smbfont';
+  font-size: 300%;
+  letter-spacing: 2px;
+
+}
+
+.bloggallery {
+  background-color: #d3d3d3;
+}
+
+.blogcontent {
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-top: 1.5%;
+  font-family: 'supermarioworld';
+}
+
+.blogcontent p {
+  margin-bottom: 1%;
+}
+
+.blogcontent img {
+  margin-left: 5%;
+  margin-top: 1.5%;
+  width: 80%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.backbutton {
+  line-height: 30px;
+  width: 180px;
+  background-color: red;
+  margin-top: 1%;
+  margin-left: 1.5%;
+  margin-bottom: 1.5%;
+  float: left;
+  font-family: 'supermarioworld';
+  border-left: 2px solid #E4A089;
+  border-top: 2px solid #E4A089;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+
+
+}
+/* end of blogpage */
+
+/* start of aboutpage*/
+.aboutviewport {
+  background-color: #BC440F;
+  border-left: 2px solid #E4A089;
+  border-top: 2px solid #E4A089;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.leftgallery {
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  margin-right: 4%;
+}
+
+.leftgallery img {
+  height: 100%;
+  margin-top: 10%;
+  overflow: hidden;
+}
+
+.rightgallery {
+  display: inline-block;
+  background-color: black;
+  height: 70%;
+  width: 40%;
+  margin-top: 5%;
+  overflow: auto;
+}
+
+.rightgallery p {
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+  font-family: "supermarioworld";
+  margin-left: 5%;
+  margin-right: 5%;
+  overflow: auto;
+
+}
+
+
+/* end of aboutpage */
