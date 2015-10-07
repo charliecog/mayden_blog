@@ -2,7 +2,7 @@
 <html>
 <!--head module-->
 
-  <?php include "_includes/head.php"; ?>
+  <?php include "_includes/head.inc"; ?>
 
 <!--end of head module-->
 
@@ -12,19 +12,21 @@
 
   <!--nav module-->
 
-    <?php include "_includes/nav.php"; ?>
+    <?php include "_includes/nav.inc"; ?>
 
   <!--end of nav module-->
 
     <a href="postpage.html"><div class="backbutton">Back to posts</div></a>
-
+      <div class="viewport blogviewport">
+        <div class="gallery bloggallery">
   <!--start of blog gallery-->
 
-    <?php include "_includes/blogcontent.php"; ?>
+    <?php include "posts/{$blogentry}.inc"; ?>
 
   <!--end of blog gallery-->
-
+</div>
     </div>
+  </div>
 
 
   </body>

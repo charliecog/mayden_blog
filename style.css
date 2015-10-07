@@ -196,6 +196,18 @@
   background-image: url("img/codeshot.jpg");
 }
 
+.contseven {
+  background-image: url("img/github.jpg");
+}
+
+.conteight {
+  background-image: url("img/rubix_cube.jpg");
+}
+
+.contnine {
+  background-image: url("img/riddler.jpg");
+}
+
 .imageGridPercentage {
   line-height: 0;
   height: 40em;
