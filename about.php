@@ -2,7 +2,7 @@
 <html>
 <!--head module-->
 
-  <?php include "_includes/head.php"; ?>
+  <?php include "_includes/head.inc"; ?>
 
 <!--end of head module-->
 
@@ -10,13 +10,13 @@
   <div class="wrapper">
 
 <!--nav module-->
-<?php include "_includes/nav.php"; ?>
+<?php include "_includes/nav.inc"; ?>
 <!--end of nav module-->
 
 <div class="viewport aboutviewport">
 <!--start of about content-->
 
-<?php include "_includes/aboutcontent.php"; ?>
+<?php include "_includes/aboutcontent.inc"; ?>
 
 <!--end of about content-->
 

@@ -2,7 +2,7 @@
 <html>
 <!--start of head module-->
 
-  <?php include "_includes/head.php"; ?>
+  <?php include "_includes/head.inc"; ?>
 
 <!--end of head module-->
   <body>
@@ -11,7 +11,7 @@
 
 <!--start of nav module-->
 
-  <?php include "_includes/nav.php"; ?>
+  <?php include "_includes/nav.inc"; ?>
 
 <!--end of nav module-->
 

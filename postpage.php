@@ -3,7 +3,7 @@
 
 <!--head module-->
 
-<?php include "_includes/head.php"; ?>
+<?php include "_includes/head.inc"; ?>
 
 <!--end of head module-->
 
@@ -13,7 +13,7 @@
 
 <!--nav module-->
 
-<?php include "_includes/nav.php"; ?>
+<?php include "_includes/nav.inc"; ?>
 
 <!--end of nav module-->
 
@@ -22,7 +22,7 @@
 
 <!--start of blog gallery-->
 
-<?php include "_includes/bloggallery.php"; ?>
+<?php include "_includes/bloggallery.inc"; ?>
 
 <!--end of blog gallery-->
 

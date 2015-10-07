@@ -6,5 +6,5 @@
 </div>
 
 <div class="controls">
-  <a href="postpage.html"><p>read the blog</p></a>
+  <a href="postpage.php"><p>read the blog</p></a>
 </div>
