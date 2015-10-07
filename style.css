@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: smbfont;
-    src: url(smbfont.ttf);
+    src: url(fonts/smbfont.ttf);
 }
 
 @font-face {
     font-family: supermarioworld;
-    src: url(supermarioworld.ttf);
+    src: url(fonts/supermarioworld.ttf);
 }
 
 /* start of nav */
