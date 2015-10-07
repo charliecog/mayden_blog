@@ -16,7 +16,7 @@
 
   <!--end of nav module-->
 
-    <a href="postpage.html"><div class="backbutton">Back to posts</div></a>
+    <a href="postpage.php"><div class="backbutton">Back to posts</div></a>
       <div class="viewport blogviewport">
         <div class="gallery bloggallery">
   <!--start of blog gallery-->
