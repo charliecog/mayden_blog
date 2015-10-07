@@ -9,7 +9,7 @@
 
 <body>
 
-<div class="wrapper">
+<div class="wrapper blogwrapper">
 
 <!--nav module-->
 

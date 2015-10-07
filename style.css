@@ -201,7 +201,7 @@
   height: 40em;
 }
 .imageGridPercentage .tile {
-  width:33.33%;
+  width:33%;
   height:50%;
   line-height: 1.2;
   display:inline-block;
