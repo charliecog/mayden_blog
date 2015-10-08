@@ -21,7 +21,7 @@
         <div class="gallery bloggallery">
   <!--start of blog gallery-->
 
-    <?php include "posts/{$blogentry}.inc"; ?>
+    <?php include "_includes/blogpagetemplate.inc"; ?>
 
   <!--end of blog gallery-->
 </div>
