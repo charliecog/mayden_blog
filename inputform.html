@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="form.css" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+  <body>
+
+    <div class="wrapper">
+      <div class="form">
+        <div class="title"><h2>Blog Entry Form</h2></div>
+         <form method="get">
+           <label>Blog title</label> <input class="textbox" type="text" name="blogtitle" placeholder="Enter Blog title..."><br><br>
+           <label>Author</label><input class="textbox"  type="text" name="author" placeholder="Enter Author..."><br><br>
+           <label>Category</label><input class="textbox"  type="text" name="category" placeholder="Enter Category..."><br><br>
+          <label>Allow comments?</label><input class="gender" type="radio" name="comments" value="yes">Yes
+           <input type="radio" name="comments" value="no">No <br><br>
+           <label>Permalink</label> <input class="textbox"  type="text" name="permalink" placeholder="Enter Permalink..."><br><br>
+           <label>Host ID (only for editing)</label><input class="textbox"  type="int" name="hostid" placeholder="Enter Host ID..."><br><br>
+           <label>Tags</label><input class="textbox"  type="text" placeholder="Enter Tags separated by a comma..."><br><br>
+           <label>Summary</label> <input class="textbox" type="text" name="summary" placeholder="Enter summary..."><br><br>
+           <label>Content</label> <input class="contentbox" type="text" name="content" placeholder="Enter content here..."><br><br>
+           <br><br><br><br>
+
+
+        </form>
+        <div class="submit">
+        <input class="green" type="submit" value="Submit"> <input class="red" type="submit" value="Cancel">
+      </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
